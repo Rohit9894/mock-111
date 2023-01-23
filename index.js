@@ -28,7 +28,7 @@ app.use("/bag", bagRoute);
 app.use("/Laundry", LaundryRoute);
 
 app.get("/", (req, res) => {
-  res.send("Hello");
+  res.send("Hello BACKEND");
 });
 app.listen(8080, async () => {
   await connect();
