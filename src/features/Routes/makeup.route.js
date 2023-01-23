@@ -1,5 +1,5 @@
 const express = require("express");
-const MakeupData = require("../Models/Makeup.model");
+const MakeupData = require("../Models/makeup.model");
 const MakeupRouter = express.Router();
 
 MakeupRouter.post("/", async (req, res) => {
